@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Salary</title>
+
+
+    
+    <style>
+
+        body{
+            background-image : url(https://businesstoys.in/assets/blog/what-is-the-salary-of-a-data-scientist-in-india/3.jpg);
+            background-size: cover;
+        }
+      
+    </style>
+    
+   
+
+</head>
+
+
+
+        
+<h1><p style="color:red;">Data Science Roles Salary</p></h1>
+<h2><p style="color:rgb(200, 255, 0);">Fill the form</p></h2>
+<form method="GET" action="/predict_salary">
+
+<h3>
+    <label> <p style="color:rgb(191, 191, 211);">Work Year:  
+    <select name = "work_year">
+    <option value = "2020">2020 </option>
+    <option value = "2021e">2021e</option>
+    </select> </p></label>
+    
+    
+    <label><p style="color:rgb(235, 235, 246);">Experience Level: 
+    <select name = "experience_level">
+    <option value = "MI">MI </option>
+    <option value = "SE">SE</option>
+    <option value = "EN">EN</option>
+    <option value = "EX">EX</option>
+    </select> </p></label>
+         
+     
+    <label><p style="color:rgb(234, 234, 241);">Employment Type: 
+    <select name = "employment_type">
+    <option value = "FT">FT</option>
+    <option value = "PT">PT</option>
+    <option value = "CT">CT</option>
+    <option value = "FL">FL</option>
+    </select></p></label>
+       
+
+    <label><p style="color:rgb(234, 234, 241);">Job Title:
+    <select name = "job_title">
+    <option value = "AI Scientist">AI Scientist</option>
+    <option value = "Applied Machine Learning Scientist">Applied Machine Learning Scientist</option>
+    <option value = "Applied Data Scientist">Applied Data Scientist</option>
+    <option value = "Business Data Analyst">Business Data Analyst</option>
+    <option value = "Big Data Engineer">Big Data Engineer</option>
+    <option value = "BI Data Analyst" >BI Data Analyst</option>
+    <option value = "Big Data Architect" >Big Data Architect</option>
+    <option value = "Computer Vision Engineer">Computer Vision Engineer</option>
+    <option value = "Computer Vision Software Engineer" >Computer Vision Software Engineer</option>
+    <option value = "Cloud Data Engineer">Cloud Data Engineer</option>
+    <option value = "Data Scientist">Data Scientist</option>  
+    <option value = "Data Engineer">Data Engineer</option>
+    <option value = "Data Analyst">Data Analyst</option>
+    <option value = "Data Science Consultant">Data Science Consultant</option>
+    <option value = "Data Science Manager">Data Science Manager</option>
+    <option value = "Director of Data Science">Director of Data Science</option>
+    <option value = "Data Engineering Manager">Data Engineering Manager</option>
+    <option value = "Data Analytics Engineer">Data Analytics Engineer</option>
+    <option value = "Data Analytics Manager">Data Analytics Manager</option>
+    <option value = "Data Science Engineer">Data Science Engineer</option>
+    <option value = "Director of Data Engineering">Director of Data Engineering</option>
+    <option value = "Data Specialist">Data Specialist</option>
+    <option value = "3D Computer Vision Researcher">3D Computer Vision Researcher</option>
+    <option value = "Data Architect">Data Architect</option>
+    <option value = "Financial Data Analyst">Financial Data Analyst</option>
+    <option value = "Finance Data Analyst">Finance Data Analyst</option>
+    <option value = "Head of Data Science">Head of Data Science</option>
+    <option value = "Head of Data">Head of Data</option>
+    <option value = "Lead Data Engineer">Lead Data Engineer</option>
+    <option value = "Lead Data Analyst">Lead Data Analyst</option>
+    <option value = "Lead Data Scientist">Lead Data Scientist</option>
+    <option value = "Machine Learning Engineer">Machine Learning Engineer</option>
+    <option value = "Marketing Data Analyst">Marketing Data Analyst</option>
+    <option value = "Manager Data Science">Manager Data Science</option>
+    <option value = "Machine Learning Scientist">Machine Learning Scientist</option>
+    <option value = "ML Engineer">ML Engineer</option>
+    <option value = "Machine Learning Infrastructure Engineer">Machine Learning Infrastructure Engineer</option>
+    <option value = "Principal Data Scientist">Principal Data Scientist</option>
+    <option value = "Principal Data Engineer">Principal Data Engineer</option>
+    <option value = "Product Data Analyst">Product Data Analyst</option>
+    <option value = "Principal Data Analyst">Principal Data Analyst</option>
+    <option value = "Staff Data Scientist">Staff Data Scientist</option>
+    </select> </p></label>
+       
+  
+
+    <label><p style="color:rgb(243, 243, 248);">Salary in USD: 
+    <input type = "text" name = "salary">
+    </select></p>
+</label>
+        
+
+        <label><p style="color:rgb(237, 237, 242);">Salary in Currency: 
+        <select name = "salary_currency">
+        <option value = "USD">USD</option>
+        <option value = "EUR">EUR</option>
+        <option value = "INR">INR</option>
+        <option value = "GBP">GBP</option>
+        <option value = "CAD">CAD</option>
+        <option value = "TRY">TRY</option>
+        <option value = "PLN">PLN</option>
+        <option value = "HUF">HUF</option>
+        <option value = "SGD">SGD</option>
+        <option value = "MXN">MXN</option>
+        <option value = "DKK">DKK</option>
+        <option value = "BRL">BRL</option>
+        <option value = "CLP">CLP</option>
+        <option value = "JPY">JPY</option>
+        <option value = "CNY">CNY</option>
+        </select></p></label>
+       
+        <label><p style="color:rgb(245, 245, 253);">Employee Residence: 
+        <select name = "employee_residence">
+        <option value = "US">US</option>
+        <option value = "IN">IN</option>
+        <option value = "DE">DE</option>
+        <option value = "FR">FR</option>
+        <option value = "GB">GB</option>
+        <option value = "CA">CA</option>
+        <option value = "ES">ES</option>
+        <option value = "JP">JP</option>
+        <option value = "NL">NL</option>
+        <option value = "GR">GR</option>
+        <option value = "BR">BR</option>
+        <option value = "PL">PL</option>
+        <option value = "PT">PT</option>
+        <option value = "TR">TR</option>
+        <option value = "IT">IT</option>
+        <option value = "PK">PK</option>
+        <option value = "RU">RU</option>
+        <option value = "MX">MX</option>
+        <option value = "DK">DK</option>
+        <option value = "RO">RO</option>
+        <option value = "AT">AT</option>
+        <option value = "NG">NG</option>  
+        <option value = "SG">SG</option>
+        <option value = "HU">HU</option>
+        <option value = "VN">VM</option>
+        </select>
+        </p></label>
+        
+    
+        <label><p style="color:rgb(235, 235, 246);">Remote Ratio: 
+        <select name = "remote_ratio">
+        <option value = "0">0</option>
+        <option value = "50">50</option>
+        <option value = "100">100</option>
+        </select></p></label>
+
+        <label><p style="color:rgb(244, 244, 252);">Company Location: 
+        <select name = "company_location">
+        <option value = "US">US</option>
+        <option value = "IN">IN</option>
+        <option value = "DE">DE</option>
+        <option value = "FR">FR</option>
+        <option value = "GB">GB</option>
+        <option value = "CA">CA</option>
+        <option value = "ES">ES</option>
+        <option value = "JP">JP</option>
+        <option value = "NL">NL</option>
+        <option value = "GR">GR</option>
+        <option value = "BR">BR</option>
+        <option value = "PL">PL</option>
+        <option value = "PT">PT</option>
+        <option value = "TR">TR</option>
+        <option value = "IT">IT</option>
+        <option value = "PK">PK</option>
+        <option value = "RU">RU</option>
+        <option value = "MX">MX</option>
+        <option value = "DK">DK</option>
+        <option value = "RO">RO</option>
+        <option value = "AT">AT</option>
+        <option value = "NG">NG</option>  
+        </select></p></label>
+       
+
+        <label><p style="color:rgb(232, 232, 240);">Company Size: 
+        <select name = "company_size">
+        <option value = "L">Large</option>
+        <option value = "S">Small</option>
+        <option value = "M">Medium</option>  
+        </select>
+        </p></label>
+        
+</h4>   
+        
+
+<br>
+        <input type = "submit" value="SUBMIT">
+
+<br>
+        <h1>
+            <strong><p style="color:red;">Data Science Salary : <b>{{prediction}}</b></strong>
+            </p>
+        </h1>
+       
+    </form>
+</body>
+</html>
+
+
+
+<!-- <h1><p style="color:red;">Data Science Roles Salary</p></h1> -->
