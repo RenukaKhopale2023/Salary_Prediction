@@ -1,4 +1,4 @@
-# Data Science Salary Prediction
+# Data Science Salary Prediction   
 ## Project Overview
 ### The Data Science Salary Prediction project is a machine learning project designed to predict salaries for data science positions based on various factors. It leverages a dataset containing information about job postings, including job titles, experience levels, education requirements, and more, to build and deploy a predictive model.
 # Data
